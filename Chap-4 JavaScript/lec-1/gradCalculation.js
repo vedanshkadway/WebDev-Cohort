@@ -1,3 +1,4 @@
+// Question: Write a function to calculate grades based on marks obtained using if-else statements.
 // marks >90 --> A
 // marks >80 --> B
 // marks >70 --> C
