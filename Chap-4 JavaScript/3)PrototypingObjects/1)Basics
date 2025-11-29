@@ -1,0 +1,12 @@
+const arr = [1,2,3,4];
+
+//Added a New Custom Prototype with name Hello to the array . 
+Array.prototype.Hello = function(){
+    console.log("New Property Added");
+}
+
+const arr2 = [1,2,3,2,1]
+//Saare array ka same hi prototype hota h toh new function bhi dono me call hoga. Inheritance
+
+arr.Hello();
+arr2.Hello();
