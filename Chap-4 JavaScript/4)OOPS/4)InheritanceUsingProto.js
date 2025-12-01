@@ -1,3 +1,5 @@
+// Implement Inheritance without using extends word.
+
 class A{
     funInsideA(){
         return `In function A`;
